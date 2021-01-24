@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+}
+.left{
+    flex: 0.2
+}
+.right{
+    flex: 0.8;
+    position: absolute;
+    left: 20%;
+}
+.bars{
+    /* flex: 0.01 */
+    width: 2px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin:0 1px;
+}
